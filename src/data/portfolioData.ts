@@ -1,3 +1,6 @@
+import smartCampusPreview from '../assets/images/smart_campus_preview_1792144463213.jpg';
+import nexoraTechPreview from '../assets/images/nexora_tech_preview_1792144462667.jpg';
+
 export interface Project {
   id: string;
   title: string;
@@ -6,6 +9,7 @@ export interface Project {
   liveUrl: string;
   githubUrl?: string;
   previewImage: string;
+  fallbackImage: string;
   tags: string[];
   features: string[];
   type: string;
@@ -122,7 +126,8 @@ export const PROJECTS: Project[] = [
     description:
       'A college project focused on presenting a smart campus information website. Explore the deployed website to understand its actual features and design.',
     liveUrl: 'https://smart-campus-information-hub-wtc2.vercel.app',
-    previewImage: '/src/assets/images/smart_campus_preview_1792144463213.jpg',
+    previewImage: smartCampusPreview,
+    fallbackImage: '/images/smart-campus.jpg',
     tags: ['Frontend', 'College Project', 'Campus Intelligence', 'Information Hub'],
     features: [
       'Centralized academic notices & circulars',
@@ -140,7 +145,8 @@ export const PROJECTS: Project[] = [
       'A technology-company website project created to explore modern website design, layouts, and frontend development.',
     liveUrl: 'https://nexora-technologies-lime.vercel.app',
     githubUrl: 'https://github.com/siridurgamukkamala-bot/nexora-technologies',
-    previewImage: '/src/assets/images/nexora_tech_preview_1792144462667.jpg',
+    previewImage: nexoraTechPreview,
+    fallbackImage: '/images/nexora-technologies.jpg',
     tags: ['TypeScript', 'Modern UI', 'Tech Showcase', 'Responsive Layout'],
     features: [
       'Modern tech-firm hero showcase & services grid',
