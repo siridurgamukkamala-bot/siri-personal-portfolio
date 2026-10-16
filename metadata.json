@@ -1,0 +1,6 @@
+{
+  "name": "Siri | Portfolio",
+  "description": "Personal portfolio website of Siri, 2nd-year B.Tech Computer Science and Machine Learning student at Sasi Institute of Technology and Engineering. Aspiring software developer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
